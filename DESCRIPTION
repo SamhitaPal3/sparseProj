@@ -1,0 +1,15 @@
+Package: sparseProj
+Title: Sparse Projection Posterior For High-dimensional Linear Regression
+Version: 0.0.0.9000
+Authors@R: 
+    person("Samhita", "Pal", , "spal4@ncsu.edu", role = c("aut", "cre"))
+Description: This package implements the Sparse Projection Posterior method in high-dimensional linear regression and provides posterior estimates, median probability model and credible intervals with good finite sample coverage.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    glmnet,
+    hdi,
+    scalreg
